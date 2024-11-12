@@ -1,0 +1,26 @@
+1. Difference betwen mutability and immutability?
+
+mutability: Mutable object can be changed or altered after they are created
+
+Example: Lists are mutable 
+
+immutability: Immutable objects cannot be altered after they are created
+
+Example: Strings and tuples are Immutable
+
+
+
+2. Difference between shallow copy and deep copy
+
+Shallow copy: When shallow copy is used, it creates a new object, but it does not create copies of the objects contained within the original object. 
+              Instead, it just copies references to the original objects.
+
+Deep copy:  When deep copy is used, it creates a new object and recursively copies all the objects inside the original object. 
+            This means that both the outer object and all the inner objects are copied.
+
+
+
+3. what is an iterator?
+
+An iterator is an object in Python that allows you to traverse through a sequence, such as a list, tuple, or string.
+
